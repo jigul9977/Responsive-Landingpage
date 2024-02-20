@@ -1,0 +1,69 @@
+@import "_nav-top.css";
+@import "_slider.css";
+@import "_shipping.css";
+@import "_categories.css";
+@import "_special-offers.css";
+@import "_popular-product.css";
+@import "_banner-section-1.css";
+@import "_footer.css";
+@import "_login-form.css";
+@import "_product-breadcrumb.css";
+@import '_product-desc.css';
+@font-face {
+  font-family: IRANSans;
+  /* url(../fonts/IRANSansWeb_Medium.eot) format("eot"), */
+  src:  url(../fonts/IRANSansX-Regular.woff) format("woff"),
+    url(../fonts/IRANSansX-Regular.woff2) format("woff2");
+  font-style: normal;
+}
+*,
+body {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+  font-family: IRANSans;
+}
+body {
+  direction: rtl;
+}
+a {
+  text-decoration: none;
+}
+ol,
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 991px) {
+  .custom-col-lg-4 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .custom-col-lg-2 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .custom-col-lg-4 {
+    flex: 0 0 52.7%;
+    width: 50%;
+  }
+  .custom-col-lg-2 {
+    flex: 0 0 47.3%;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 578px) and (max-width: 768px) {
+  .custom-col-lg-4 {
+    flex: 0 0 54%;
+    width: 50%;
+  }
+  .custom-col-lg-2 {
+    flex: 0 0 46%;
+    width: 50%;
+  }
+}

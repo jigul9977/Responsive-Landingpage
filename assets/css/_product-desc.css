@@ -1,0 +1,139 @@
+.custom-nav-tabs-product-page .nav-link {
+  border-radius: 0;
+  font-size: 16px;
+}
+.custom-nav-tabs-product-page .nav-link:focus-visible {
+  outline: 0;
+  box-shadow: none;
+}
+.custom-nav-tabs-product-page .nav-link:focus {
+  isolation: isolate;
+  border-color: var(--bs-nav-tabs-link-active-border-color);
+}
+.custom-nav-tabs-product-page .nav-item.show .nav-link,
+.custom-nav-tabs-product-page .nav-link.active {
+  border-top: 4px solid rgb(255, 136, 0);
+  background-color: #f8f9fa;
+  color: #1f1f1f;
+}
+.custom-tab-content-product h5 {
+  color: #656565;
+}
+.custom-tab-content-product .product-desc {
+  font-size: 15px;
+  line-height: 36px;
+  background-color: #f8f6f6;
+}
+.product-main-desc {
+  font-size: 15px;
+  line-height: 36px;
+}
+.product-rate-bg {
+  background-color: #f8f6f6;
+}
+.product-all-rate p {
+  font-size: 14px;
+}
+.product-desc-step li {
+  border-right: 1px solid #000;
+  font-size: 17px;
+  line-height: 40px;
+  color: #2f2f2f;
+}
+.product-desc-step li i {
+  font-size: 20px;
+  color: #2700ff;
+  right: -10px;
+  top: -7px;
+}
+.product-desc-step li .p-img-wrapper {
+  max-width: 500px;
+}
+.product-details .key {
+  flex: 0 0 23%;
+  background-color: #fdfafa;
+  height: 45px;
+  font-size: 15px;
+}
+.product-details .value {
+  flex: 0 0 77%;
+  background-color: #fdfafa;
+  height: 45px;
+  font-size: 15px;
+}
+.product-details .details-title i {
+  font-size: 20px;
+  margin-right: 10px;
+  vertical-align: -11px;
+}
+.custom-popover {
+  --bs-popover-max-width: 270px;
+  --bs-popover-border-color: #712cf9;
+  --bs-popover-header-bg: #712cf9;
+  --bs-popover-header-color: var(--bs-white);
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: 0.5rem;
+}
+.add-comment p:first-child {
+  font-size: 18px;
+  color: #3d3a3a;
+}
+.add-comment p:nth-child(2) {
+  color: #3d3a3a;
+}
+.add-comment a i {
+  vertical-align: -4px;
+}
+.positive-points li , .negative-points li{
+  font-size: 14px;
+}
+.positive-points li p , .negative-points li p {
+  font-size: 16px;
+}
+.positive-points li i , .negative-points li i{
+  font-size: 14px;
+  vertical-align: -2px;
+}
+.user-details-wrapper .user-details p{
+  font-size: 14px;
+}
+.user-details .color-info{
+  font-size: 15px;
+}
+.user-details .color-info i{
+  font-size: 12px;
+  vertical-align: -2px;
+}
+.user-p-comment p{
+  font-size: 18px;
+}
+.helpful-comment{
+  font-size: 16px!important;
+}
+.positive-comment , .negative-comment{
+  background-color: #ededed;
+  font-size: 14px;
+}
+.register-comment > button{
+  font-size: 20px;
+  padding: 1rem 4.8rem;
+}
+.register-comment p i{
+  font-size: 22px;
+  vertical-align: -3px;
+  
+  color: #fff;
+}
+#register-comment-modal .modal-dialog{
+  max-width: 700px;
+}
+#register-comment-modal .modal-dialog .modal-body i{
+  left: 20px;
+  cursor: pointer;
+}
+/* .product-details .key p , .product-details .value p{
+
+} */
+/* .custom-nav-tabs-product-page .nav-item .nav-link:focus-visible{
+outline: none;
+} */

@@ -1,0 +1,175 @@
+.custom-nav-tabs .nav-item.show .nav-link,
+.custom-nav-tabs .nav-link.active {
+  color: red;
+  background-color: transparent;
+  border-color: transparent;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  isolation: isolate;
+  border-color: transparent;
+}
+.custom-title {
+  right: 0;
+}
+.custom-nav-tabs .nav-link {
+  margin-bottom: 0;
+  border: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  font-size: 15px;
+  color: #2d2d2d;
+}
+.offer-details {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.offer-details a {
+  font-size: 16px;
+  color: rgb(140, 135, 235);
+}
+.offer-rating i {
+  color: gold;
+  font-size: 16px;
+}
+.offer-price s {
+  color: red;
+  font-size: 13px;
+  /* padding-left: 12px; */
+}
+.offer-price span {
+  color: #909090;
+  font-size: 16px;
+}
+.offer-details .count-down-timer p {
+  font-size: 16px;
+}
+
+.count-down-timer #offer-timer span {
+  background-color: #dcdcdc;
+  margin: 7px;
+  padding-top: 8px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  vertical-align: 0px;
+  border-radius: 50%;
+  font-size: 14px;
+
+  /* text-align: center; */
+}
+.design-offer-expire-text {
+  display: flex;
+  width: 100%;
+  background-color: #f8f9fa58;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.offers-expire-text .offer-expire-text-inner {
+  font-weight: bolder;
+  color: #ff0000;
+  font-size: 16px;
+  background-color: #43238fcd !important;
+}
+.count-down-timer #offer-timer #days,
+#hours,
+#minutes,
+#seconds {
+  position: relative;
+}
+.count-down-timer #offer-timer #days::after,
+#hours::after,
+#minutes::after,
+#seconds::after {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.count-down-timer #offer-timer #days::after {
+  content: "روز";
+}
+.count-down-timer #offer-timer #hours::after {
+  content: "ساعت";
+}
+.count-down-timer #offer-timer #minutes::after {
+  content: "دقیقه";
+}
+.count-down-timer #offer-timer #seconds::after {
+  content: "ثانیه";
+}
+
+.offer-product-image {
+  height: 240px;
+  /* width: 230px; */
+  overflow: hidden;
+  text-align: center;
+}
+.offer-product-image img {
+  width: 230px !important;
+  transition: all 0.1s ease;
+}
+.offer-product-image:hover .first-img,
+.offer-product-image:hover .second-img {
+  transform: translateY(-240px);
+}
+.special-offer-shadow {
+  box-shadow: 0px 0px 1px 1px #efefef;
+  z-index: 1;
+}
+@media screen and (max-width: 576px) {
+  /* .custom-nav-tabs{
+    direction: rtl;
+  } */
+  .custom-nav-tabs p {
+    font-size: 16px !important;
+    right: 50% !important;
+    bottom: 30px;
+    transform: translate(50%, 0);
+  }
+  .custom-nav-tabs .nav-item .nav-link {
+    font-size: 12px !important;
+  }
+  .offer-details {
+    flex: 0 0 55%;
+    max-width: 55%;
+  }
+  .offer-price s {
+    font-size: 12px;
+  }
+  .offer-price span {
+    font-size: 14px;
+    display: block;
+  }
+  .offer-product-image {
+    max-height: 183px;
+    max-width: 183px;
+  }
+  .offer-product-image img {
+    width: 183px;
+    height: 183px;
+  }
+  .offer-product-image:hover .first-img,
+  .offer-product-image:hover .second-img {
+    transform: translateY(-183px);
+  }
+  .offer-details a {
+    font-size: 15px;
+  }
+  .offer-details .count-down-timer p {
+    font-size: 14px;
+  }
+  .count-down-timer #offer-timer span {
+    margin: 4px;
+  }
+}
+
+/* .offer-product-image:hover .second-img{
+  transform: translateY(-230px);
+} */
+/* :focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+} */

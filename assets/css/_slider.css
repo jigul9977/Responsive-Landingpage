@@ -1,0 +1,14 @@
+.img-fluid {
+  width: 100% !important;
+}
+
+@media screen and (min-width: 992px) {
+  .custom-col-lg-4 {
+    flex: 0 0 26%;
+    width: 33.33333333%;
+  }
+  .custom-col-lg-2 {
+    flex: 0 0 23.23%;
+    width: 16.66666667%;
+  }
+}

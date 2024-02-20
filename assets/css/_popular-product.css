@@ -1,0 +1,60 @@
+.p-title {
+	font-size: 14px !important;
+}
+
+.custom-fs-badge {
+	font-size: 13px !important;
+}
+
+.custom-card {
+	border-radius: 0;
+	border: none;
+}
+
+.custom-card:hover {
+	box-shadow: 0 0 10px 3px #efefef;
+	z-index: 1;
+}
+
+.custom-card-img-width {
+	max-width: 230px;
+}
+.custom-owl-carouse{
+	display: flex;
+	justify-content: center;
+}
+.custom-owl-carouse .owl-item{
+display: flex;
+justify-content: center;
+}
+.custom-owl-carouse .owl-nav {
+
+	position: absolute;
+	width: 100%;
+	top: 35%;
+}
+.custom-owl-carouse .owl-nav button span{
+	font-size: 65px;
+	display: block;
+	background-color: #F8F9FA;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.custom-owl-carouse .owl-nav button{
+    position: absolute;
+		bottom: 10;
+	width: 50px;
+}
+.custom-owl-carouse .owl-nav button:first-child{
+	right: -4px;
+}
+.custom-owl-carouse .owl-nav button:last-child{
+	left: -4px;
+}
+.custom-owl-carouse .owl-nav [class*='owl-']:hover{
+	color: #1e1d1d;
+}
+.section-title{
+	z-index: 2;
+	top: 9px;
+	right: 13px!important;
+}

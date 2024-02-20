@@ -1,0 +1,116 @@
+.bg-nav-top {
+  background-color: #002147;
+}
+.custom-top-nav,
+.bg-nav-top p {
+  font-size: 13px;
+}
+.custom-top-nav a {
+  padding: 10px;
+}
+.custom-border-end {
+  border-color: #585858 !important;
+}
+/* .custum-border-bottom{
+    border-color: #585858!important;
+} */
+.font-14 {
+  font-size: 14px;
+}
+.ver-align-2 {
+  vertical-align: 2px;
+}
+.shop-btn::after{
+    vertical-align: 2px;
+}
+.shopping-basket{
+    min-width: 260px;
+}
+.shopping-basket li a img{
+    width: 64px;
+    height: 64px;
+}
+.shopping-basket li a ul{
+    font-size: 11px;
+}
+.shopping-basket li a button{
+    font-size: 13px;
+    
+}
+.custom-navbar .navbar-toggler{
+  border: 0!important;
+
+}
+.custom-navbar .navbar-toggler:focus{
+  box-shadow: none;
+  outline: 2px solid #aeaeae !important;
+  border: 0!important;
+}
+.custom-mega-menu{
+  font-size: 14px;
+}
+.custom-mega-menu ul li .nav-link.show{
+  color: rgba(255,255,255,.75)!important;
+}
+.custom-mega-menu ul li .nav-link:hover , .custom-mega-menu ul li a:focus{
+  color: rgba(255,255,255,.75)!important;
+}
+
+.custom-mega-menu ul li .nav-link{
+  color: #fff;
+}
+.custom-mega-menu ul li {
+  padding: 0 10px;
+}
+.login-btn:hover{
+  color: rgba(255,255,255,.75) !important;
+}
+.login-btn span{
+  vertical-align: 2.5px;
+  font-weight: 100;
+}
+/* .custom-navbar{
+  position: unset;
+} */
+.custom-mega-menu ul .nav-item{
+  position: unset;
+}
+.custom-mega-menu ul .nav-item ul.dropdown-menu{
+  
+  width: 100%;
+  /* background-color: #002147; */
+  border-radius: 0;
+  min-height: 295px;
+}
+.home-appliances img{
+width: 300px;
+height: auto;
+}
+.home-appliances li{
+  cursor: pointer;
+}
+.home-appliances li i{
+  vertical-align: -3px;
+
+}
+.home-appliances li a{
+  font-size: 15px;
+  color: #000!important;
+  display: unset;
+transition: all .15s ease;
+}
+.home-appliances li:hover > a{
+  /* margin-right: 15px; */
+  color: rgb(98, 158, 222)!important;
+  background: none;
+}
+.home-appliances li i{
+  transition: all .15s ease;
+}
+.home-appliances li:hover > i{
+  margin-right:15px ;
+  color: rgb(98, 158, 222)!important;
+}
+.input-top-nav-search::-webkit-input-placeholder{
+  font-size: 13px;
+}
